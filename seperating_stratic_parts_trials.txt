@@ -1,0 +1,71 @@
+# print(type(contours))
+    # print(type(contours[0]))
+
+    # print(type(contours[0]))
+    # print(contours[0][1])
+    # np.delete(contours[0], 1, axis=0)
+    # print(contours[0])
+    #a_new = np.array([[1, 2], [4, 5]])
+    # print(contours)
+    # arr=[]
+    # for cnt in contours:
+    #     # area = cv.contourArea(cnt)
+    #     # print(area)
+    #     M = cv.moments(cnt)
+    #     print(M)
+        
+        # new_list = cnt.tolist()
+        # print(new_list)
+        # # print(new_list[0])
+        # for i in range (len(new_list)):
+        #     data = new_list[i][0][0]
+
+        #     if data >= 319:
+        #         # print(data)
+        #         x = new_list[i]
+                # print(x)
+                # del new_list[i]
+            # msk = False
+            # idx = np.where()
+            # for i in range(len(cnt)):
+            #    idx = np.where(cnt[i][0][0]<319)
+            #    print(cnt[0][0])
+            #    print(idx)
+ 
+            
+
+            # print(cnt)
+            # print(type(cnt))
+            # print(type(cnt[0][0]))
+            # msk = cnt[0][0] < 319
+            # print(msk)
+            # idx = np.where(msk)
+            # print(idx)
+            # for i in range(len(cnt)):
+            #    data = cnt[i][0][0]
+            # #    print(type(cnt[i]))
+            # #    print(cnt[i][0])
+            # #    print(type(cnt[i][0]))
+            # #    print(type(cnt[i][0][0]))
+            #    msk = cnt[i][0][0] < 319
+            #    print(msk)
+            #    idx = np.where(msk)
+               
+            #    if data >= 319:
+            #        arr=  np.delete(cnt, i)
+            #        print('delete')
+                       
+            #    else:
+            #         print(data)
+            # print(arr)            
+            # if data >= chk_point_x:
+            #      cnt = np.delete(cnt, i)
+       
+    # for i in range (len(contours)):
+    #     data = contours[i]
+    #     if data[0][0].any() >=chk_point_x:
+    #         contours.remove(data[i]) 
+    
+    #print(contours)
+    # for cnt in contours:
+    #     print(cnt[0],' ',cnt[1])
